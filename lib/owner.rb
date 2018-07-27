@@ -5,6 +5,7 @@ class Owner
     @name=name
     @mood="nervous"
     @species = "human"
+    @pets = {:fishes => [], :dogs => [], :cats => []}
   end
 
   def say_species
