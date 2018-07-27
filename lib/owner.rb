@@ -26,6 +26,7 @@ class Owner
 
   def list_pets
     puts @pets[:fishes].count#{}"I have #{@pets[:fishes].count}"
+  end
   # code goes here
 
  end
