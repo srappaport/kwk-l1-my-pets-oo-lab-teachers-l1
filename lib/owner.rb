@@ -13,6 +13,7 @@ class Owner
   end
 
   def buy_fish(new_pet)
+    @pets[:fishes] << new_pet
   end
   # code goes here
 
