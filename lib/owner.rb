@@ -30,3 +30,7 @@ class Owner
   # code goes here
 
  end
+
+ sarah = Owner.new("Sarah")
+ sarah.buy_fish("Randomfish")
+sarah.list_pets
