@@ -23,6 +23,9 @@ class Owner
   def buy_dog(new_dog)
     @pets[:dogs] << new_dog
   end
+
+  def list_pets
+    puts @pets[:fishes].count#{}"I have #{@pets[:fishes].count}"
   # code goes here
 
  end
