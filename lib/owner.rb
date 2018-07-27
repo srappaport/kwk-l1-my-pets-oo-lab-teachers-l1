@@ -12,8 +12,12 @@ class Owner
     "I am a human."
   end
 
-  def buy_fish(new_pet)
-    @pets[:fishes] << new_pet
+  def buy_fish(new_fish)
+    @pets[:fishes] << new_fish
+  end
+
+  def buy_cat(new_cat)
+    @pets[:cats] << new_cat
   end
   # code goes here
 
