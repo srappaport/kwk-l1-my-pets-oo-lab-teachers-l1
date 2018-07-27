@@ -6,6 +6,10 @@ class Owner
     @mood="nervous"
     @species = "human"
   end
+
+  def say_species
+    "I am a human"
+  end
   # code goes here
 
  end
