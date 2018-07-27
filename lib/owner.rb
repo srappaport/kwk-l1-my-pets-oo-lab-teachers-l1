@@ -11,6 +11,9 @@ class Owner
   def say_species
     "I am a human."
   end
+
+  def buy_fish(new_pet)
+  end
   # code goes here
 
  end
